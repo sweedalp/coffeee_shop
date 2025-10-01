@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop - Specials</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="specials.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Seasonal Specials</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="specials.html">Specials</a>
+      <a href="about.html">About Us</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="specials">
+      <article>
+        <img src="images/Best-Pumpkin-Spice-Latte-Recipe-with-Coffee-11.webp" alt="Pumpkin Spice Latte">
+        <h2>Pumpkin Spice Latte 🎃 <span>$4.50</span></h2>
+        <span class="limited">Limited Time!</span>
+        <p>Fall favorite with cinnamon and nutmeg.</p>
+        <p class="countdown" data-end="2025-10-15T23:59:59"></p>
+        <button class="buy-btn">Buy Now</button>
+      </article>
+
+      <article>
+        <img src="images/better-than-starbucks-caramel-macchiato-photo-681x1024.webp" alt="Iced Caramel Macchiato">
+        <h2>Iced Caramel Macchiato ❄️ <span>$4.20</span></h2>
+        <span class="badge">⭐ Customer Favorite</span>
+        <p>Perfect cold brew with caramel drizzle.</p>
+        <button class="buy-btn">Buy Now</button>
+      </article>
+
+      <article>
+        <img src="images/peppermint-mocha-www.webp" alt="Holiday Peppermint Mocha">
+        <h2>Holiday Peppermint Mocha 🎄 <span>$4.80</span></h2>
+        <span class="limited">Holiday Special!</span>
+        <p>Chocolate and peppermint cheer in a cup.</p>
+        <p class="countdown" data-end="2025-12-31T23:59:59"></p>
+        <button class="buy-btn">Buy Now</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Brew Bliss Coffee</p>
+  </footer>
+
+  <!-- Floating Cart Icon -->
+<div id="cart-icon">
+  🛒 <span id="cart-count">0</span>
+</div>
+
+<!-- Shopping Cart Sidebar -->
+<div id="cart" class="cart">
+  <h2>🛒 Your Cart</h2>
+  <ul id="cart-items"></ul>
+  <p id="cart-total">Total: $0.00</p>
+  <button id="checkout-btn">Checkout</button>
+</div>
+
+
+</body>
+</html>

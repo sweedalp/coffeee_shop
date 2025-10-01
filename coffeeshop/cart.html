@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart - Brew Bliss Coffee</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🛒 Your Cart</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="specials.html">Specials</a>
+      <a href="about.html">About Us</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cart-page">
+      <table id="cart-table">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody id="cart-table-body">
+          <!-- Cart items will load here -->
+        </tbody>
+      </table>
+
+      <h2 id="cart-total-page">Total: $0.00</h2>
+
+      <!-- Checkout Form -->
+      <form id="checkout-form" class="checkout-form">
+        <h3>Checkout Details</h3>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" rows="3" required></textarea>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="payment">Payment Method:</label>
+        <select id="payment" required>
+          <option value="Cash">Cash on Delivery</option>
+          <option value="Card">Credit/Debit Card</option>
+          <option value="UPI">UPI</option>
+        </select>
+
+        <button type="submit" id="place-order-btn">Place Order</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Brew Bliss Coffee</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop - About Us</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="specials.html">Specials</a>
+      <a href="about.html">About Us</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Story -->
+    <section class="story">
+      <h2>Our Story</h2>
+      <p>Founded in 2015, Brew Bliss Coffee started as a small neighborhood cafe with one mission: serve the best coffee with love. Today, we are the heart of the community, offering coffee, food, and a cozy space for friends to meet.</p>
+    </section>
+
+    <!-- Mission -->
+    <section class="mission">
+      <h2>Our Mission</h2>
+      <p>To bring people together over the love of coffee, creating a warm and welcoming environment for everyone.</p>
+    </section>
+
+    <!-- Baristas -->
+    <section class="team">
+      <h2>Meet Our Baristas</h2>
+      <div class="team-grid">
+        <article>
+          <img src="images/ann.jpg" alt="Anna">
+          <h3>Anna</h3>
+          <p>Latte Art Specialist ☕🎨</p>
+        </article>
+        <article>
+          <img src="images/mark.jpg" alt="Mark">
+          <h3>Mark</h3>
+          <p>Espresso Expert ⚡</p>
+        </article>
+        <article>
+          <img src="images/soffia.jpg" alt="Sophia">
+          <h3>Sophia</h3>
+          <p>Mocha & Sweet Drinks 🍫</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="timeline">
+      <h2>Our Journey</h2>
+      <ul>
+        <li><b>2015:</b> Opened our first café</li>
+        <li><b>2018:</b> Introduced seasonal specials</li>
+        <li><b>2020:</b> Survived the pandemic with community support ❤️</li>
+        <li><b>2022:</b> Expanded to 3 locations</li>
+      </ul>
+    </section>
+
+    <!-- Counters -->
+    <section class="counters">
+      <h2>Our Impact</h2>
+      <div class="counter-grid">
+        <div><span id="cups">0</span>+ Cups Served</div>
+        <div><span id="customers">0</span>+ Happy Customers</div>
+        <div><span id="years">0</span> Years of Brewing</div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <h2>Stay Connected</h2>
+      <form id="newsletter-form">
+        <label for="email">Subscribe to our Newsletter:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Brew Bliss Coffee</p>
+  </footer>
+
+  <!-- Shopping Cart Sidebar (for consistency) -->
+  <div id="cart" class="cart">
+    <h2>🛒 Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: $0.00</p>
+    <button id="checkout-btn">Checkout</button>
+  </div>
+  <div id="cart-icon">🛒 <span id="cart-count">0</span></div>
+</body>
+</html>
